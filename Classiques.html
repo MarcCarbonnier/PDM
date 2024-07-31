@@ -4,27 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Classiques</title>
-    <link rel="stylesheet" href="/CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="/CSS/classiques.css">
   </head>
   <body>
     <header>
+      <div id="logo">
+        <img
+          src="https://storylife.fr/assets/logo-story.png"
+          alt="logo"
+          width="50vh"
+        />
+      </div>
       <img
+        id="one"
         src="./IMG/PremiumDeluxeMotorsport-GTAOe-Logo.webp"
         alt="PDM"
         width="500px"
         height="200px"
       />
     </header>
-    <hr />
+  <section id="left">
+    <input type="checkbox" id="check" />
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <a href="/pdm.html">
+        <span>Accueil</span>
+      </a>
+      <a href="./arrivage.html">
+        <span>Arrivage</span>
+      </a>
+      <a href="./Chopper.html">
+        <span>Chopper</span>
+      </a>
+      <a href="./Classiques.html" class="active">
+        <span>Classiques</span>
+      </a>
+      <a href="./cross.html">
+        <span>Motocross</span>
+      </a>
+      <a href="./occas.html">
+        <span>Occasion</span>
+      </a>
+      <a href="./quad.html">
+        <span>Quad</span>
+      </a>
+      <a href="./scooter.html">
+        <span>Scooter</span>
+      </a>
+      <a href="./super_sportive.html">
+        <span>Super Sportive</span>
+      </a>
+      <a href="./tout_terrain.html">
+        <span>Tout Terrain</span>
+      </a>
+      <a href="./velo.html">
+        <span>Vélo</span>
+      </a>
+      <a href="./vip.html">
+        <span>VIP</span>
+      </a>
+    </div>
+  </section>
     <section class="title">
       <h1>Classiques</h1>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/t60usa0qt7z71.png?width=1742&format=png&auto=webp&s=b300cd3454a3f954ea636aa5375f8ba013cf2bb9);
-          "
-        >
+          class="front" id="akuma">
           <h2 class="text-shadow">AKUMA</h2>
         </div>
         <div class="back">
@@ -38,11 +87,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://pbs.twimg.com/media/CxUPiW4WEAEi170?format=jpg&name=large);
-          "
-        >
+          class="front" id="esskey">
           <h2 class="text-shadow">ESSKEY</h2>
         </div>
         <div class="back">
@@ -56,11 +101,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/cg2n7wadsi551.jpg?width=1080&crop=smart&auto=webp&s=f18cc9f0703358b87c6c401d3680bf8d2eb572b3);
-          "
-        >
+          class="front" id="fcr1000">
           <h2 class="text-shadow">FCR-1000</h2>
         </div>
         <div class="back">
@@ -75,11 +116,7 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/9t6io69i1v0z.jpg?width=1080&crop=smart&auto=webp&s=e5f14a651b15294fa09617bbf513865566e4ea6c);
-          "
-        >
+          class="front" id="fcr1000custom">
           <h2 class="text-shadow">FCR-1000 CUSTOM</h2>
         </div>
         <div class="back">
@@ -93,11 +130,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.atwiki.jp/gtav/attach/1357/7185/kbZVZqFggUaft-8mluI1zw_0_0.jpg);
-          "
-        >
+          class="front" id="lectro">
           <h2 class="text-shadow">LECTRO</h2>
         </div>
         <div class="back">
@@ -111,11 +144,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://external-preview.redd.it/Vf-ktQ04VHVGoxpuLahjUR2GdoJ1WnvivX5_7gNnKXk.jpg?width=640&crop=smart&auto=webp&s=4bb5c8282ca33f99772045e60f408079bf97e1b0);
-          "
-        >
+          class="front" id="nemesis">
           <h2 class="text-shadow">NEMESIS</h2>
         </div>
         <div class="back">
@@ -130,11 +159,7 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://gtamag.com/images/photo/gta-mag-shitzu-pcj-6002-gtao-823290.jpg);
-          "
-        >
+          class="front" id="pcj600">
           <h2 class="text-shadow">PCJ-600</h2>
         </div>
         <div class="back">
@@ -148,11 +173,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://gtamag.com/images/photo/gta-mag-pegassi-ruffian2-gtao-791541.jpg);
-          "
-        >
+          class="front" id="ruffian">
           <h2 class="text-shadow">RUFFIAN</h2>
         </div>
         <div class="back">
@@ -166,11 +187,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://external-preview.redd.it/r5usz4sjg2NKbW9-rAycJGYorUgK9IE5CeTPoJpvAFA.jpg?width=640&crop=smart&auto=webp&s=6bbe8a87dc53461a2fd6dc9497daa5ebf7044fd0);
-          "
-        >
+          class="front" id="thrust">
           <h2 class="text-shadow">THRUST</h2>
         </div>
         <div class="back">
@@ -185,11 +202,7 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://gtamag.com/images/photo/gta-mag-shitzu-vader2-gtao-823258.jpg);
-          "
-        >
+          class="front" id="vader">
           <h2 class="text-shadow">VADER</h2>
         </div>
         <div class="back">
@@ -203,11 +216,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://gtamag.com/images/photo/gta-mag-pegassi-vortex2-gtao-791766.jpg);
-          "
-        >
+          class="front" id="vortex">
           <h2 class="text-shadow">VORTEX</h2>
         </div>
         <div class="back">

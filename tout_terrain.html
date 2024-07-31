@@ -4,27 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tout Terrain</title>
-    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="/CSS/tout-terrain.css">
 </head>
 <body>
-    <header>
-        <img
-          src="./IMG/PremiumDeluxeMotorsport-GTAOe-Logo.webp"
-          alt="PDM"
-          width="500px"
-          height="200px"
-        />
-      </header>
-      <hr />
+  <header>
+    <div id="logo">
+      <img
+        src="https://storylife.fr/assets/logo-story.png"
+        alt="logo"
+        width="50vh"
+      />
+    </div>
+    <img
+      id="one"
+      src="./IMG/PremiumDeluxeMotorsport-GTAOe-Logo.webp"
+      alt="PDM"
+      width="500px"
+      height="200px"
+    />
+  </header>
+    <section id="left">
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+      <div class="sidebar">
+        <a href="/pdm.html">
+          <span>Accueil</span>
+        </a>
+        <a href="./arrivage.html">
+          <span>Arrivage</span>
+        </a>
+        <a href="./Chopper.html">
+          <span>Chopper</span>
+        </a>
+        <a href="./Classiques.html">
+          <span>Classiques</span>
+        </a>
+        <a href="./cross.html">
+          <span>Motocross</span>
+        </a>
+        <a href="./occas.html">
+          <span>Occasion</span>
+        </a>
+        <a href="./quad.html">
+          <span>Quad</span>
+        </a>
+        <a href="./scooter.html">
+          <span>Scooter</span>
+        </a>
+        <a href="./super_sportive.html">
+          <span>Super Sportive</span>
+        </a>
+        <a href="./tout_terrain.html" class="active">
+          <span>Tout Terrain</span>
+        </a>
+        <a href="./velo.html">
+          <span>Vélo</span>
+        </a>
+        <a href="./vip.html">
+          <span>VIP</span>
+        </a>
+      </div>
+    </section>
       <section class="title">
         <h1>Tout Terrain</h1>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://gtamag.com/images/photo/gta-mag-bf-injection2-299852.jpg);
-            "
-          >
+            class="front" id="bfinjection">
             <h2 class="text-shadow">BF INJECTION</h2>
           </div>
           <div class="back">
@@ -38,11 +87,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://preview.redd.it/ltb-faggio-mod-and-bf-bifta-v0-5vu1dib63pcc1.jpg?width=1080&crop=smart&auto=webp&s=bfb3151569334962623cea7ef8e0b68f965e3d19);
-            "
-          >
+            class="front" id="bifta">
             <h2 class="text-shadow">BIFTA</h2>
           </div>
           <div class="back">
@@ -56,11 +101,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://www.gtagaming.com/images/32543/1437016243_brawler003.jpg);
-            "
-          >
+            class="front" id="brawler">
             <h2 class="text-shadow">BRAWLER</h2>
           </div>
           <div class="back">
@@ -75,17 +116,13 @@
         <br />
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://preview.redd.it/dtkg5c9jmtc31.jpg?width=1080&crop=smart&auto=webp&s=aeb60783554f0e96396a4e556ed847d77dce5fd8);
-            "
-          >
+            class="front" id="caracara">
             <h2 class="text-shadow">CARACARA</h2>
           </div>
           <div class="back">
             <h2>Caracara</h2>
             <p>
-              Prix : 200 53 <br />
+              Prix : 200 530 <br />
               Places : 4 <br />
               Coffres : 300 KG <br />
             </p>
@@ -93,11 +130,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://i.ytimg.com/vi/ymL7BnKEABo/maxresdefault.jpg);
-            "
-          >
+            class="front" id="contender">
             <h2 class="text-shadow">CONTENDER</h2>
           </div>
           <div class="back">
@@ -111,11 +144,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://i.pinimg.com/1200x/ce/d3/a8/ced3a8450238859f441f46333d612ddc.jpg);
-            "
-          >
+            class="front" id="dubsta">
             <h2 class="text-shadow">DUBSTA 6X6</h2>
           </div>
           <div class="back">
@@ -130,11 +159,7 @@
         <br />
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://i.ytimg.com/vi/4tG2b1J3qaU/maxresdefault.jpg);
-            "
-          >
+            class="front" id="crawler">
             <h2 class="text-shadow">FREE CRAWLER</h2>
           </div>
           <div class="back">
@@ -148,11 +173,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://pbs.twimg.com/media/CJMSp8eWEAAjtcQ.jpg:large);
-            "
-          >
+            class="front" id="guardian">
             <h2 class="text-shadow">GUARDIAN</h2>
           </div>
           <div class="back">
@@ -166,11 +187,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://i.redd.it/gu7pnw0v4me01.jpg);
-            "
-          >
+            class="front" id="kamacho">
             <h2 class="text-shadow">KAMACHO</h2>
           </div>
           <div class="back">
@@ -185,11 +202,7 @@
         <br />
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://gtamag.com/images/photo/gta-mag-canis-mesa-merryweather-374189.jpg);
-            "
-          >
+            class="front" id="mesa">
             <h2 class="text-shadow">MESA</h2>
           </div>
           <div class="back">
@@ -203,11 +216,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://preview.redd.it/8hvgeoscbm3d1.png?width=1080&crop=smart&auto=webp&s=91ea467eb9c6f643e76b4eefb69eb093fa59aab2);
-            "
-          >
+            class="front" id="rebel">
             <h2 class="text-shadow">REBEL</h2>
           </div>
           <div class="back">
@@ -221,11 +230,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://gtamag.com/images/photo/gta-mag-vapid-riata-479545.jpg);
-            "
-          >
+            class="front" id="riata">
             <h2 class="text-shadow">RIATA</h2>
           </div>
           <div class="back">
@@ -240,11 +245,7 @@
         <br />
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnN6eYszubc1ac3Fk1h6HCIraM1siA7qqOzA&s);
-            "
-          >
+            class="front" id="sadler">
             <h2 class="text-shadow">SADLER</h2>
           </div>
           <div class="back">
@@ -258,11 +259,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD5q9QlRaTs4I0VgpB_5Rb6EseCOuPoLMfnQ&s);
-            "
-          >
+            class="front" id="sandking">
             <h2 class="text-shadow">SANDKING</h2>
           </div>
           <div class="back">
@@ -276,11 +273,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://i.ytimg.com/vi/eyM31mMs1SM/maxresdefault.jpg);
-            "
-          >
+            class="front" id="trophytruck">
             <h2 class="text-shadow">TROPHY TRUCK</h2>
           </div>
           <div class="back">
@@ -295,11 +288,7 @@
         <br />
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://www.gta5rides.com/vehicleimages/cropped/DesertRaid-GTAO-front.png.jpg);
-            "
-          >
+            class="front" id="trophytruckL">
             <h2 class="text-shadow">TROPHY TRUCK LIMITED</h2>
           </div>
           <div class="back">
@@ -313,11 +302,7 @@
         </div>
         <div class="flip flip-vertical">
           <div
-            class="front"
-            style="
-              background-image: url(https://i.redd.it/good-day-good-people-today-i-have-3-variants-of-the-v0-9qsy9woniqoa1.jpg?width=1920&format=pjpg&auto=webp&s=17d4c1c2aa8924a9adcb8a07f50de981a634a2ac);
-            "
-          >
+            class="front" id="yosemitecustom">
             <h2 class="text-shadow">YOSEMITE CUSTOM</h2>
           </div>
           <div class="back">
@@ -331,11 +316,7 @@
         </div>
         <div class="flip flip-vertical">
             <div
-              class="front"
-              style="
-                background-image: url(https://img.gta5-mods.com/q95/images/declasse-vigero-outlaw-addon-tuning/542deb-vigout3.jpg);
-              "
-            >
+              class="front" id="vigout">
               <h2 class="text-shadow">VIGOUT</h2>
             </div>
             <div class="back">

@@ -4,27 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vélo</title>
-    <link rel="stylesheet" href="/CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="/CSS/velo.css">
   </head>
   <body>
     <header>
+      <div id="logo">
+        <img
+          src="https://storylife.fr/assets/logo-story.png"
+          alt="logo"
+          width="50vh"
+        />
+      </div>
       <img
+        id="one"
         src="./IMG/PremiumDeluxeMotorsport-GTAOe-Logo.webp"
         alt="PDM"
         width="500px"
         height="200px"
       />
     </header>
-    <hr />
+  <section id="left">
+    <input type="checkbox" id="check" />
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <a href="/pdm.html">
+        <span>Accueil</span>
+      </a>
+      <a href="./arrivage.html">
+        <span>Arrivage</span>
+      </a>
+      <a href="./Chopper.html">
+        <span>Chopper</span>
+      </a>
+      <a href="./Classiques.html">
+        <span>Classiques</span>
+      </a>
+      <a href="./cross.html">
+        <span>Motocross</span>
+      </a>
+      <a href="./occas.html">
+        <span>Occasion</span>
+      </a>
+      <a href="./quad.html">
+        <span>Quad</span>
+      </a>
+      <a href="./scooter.html">
+        <span>Scooter</span>
+      </a>
+      <a href="./super_sportive.html">
+        <span>Super Sportive</span>
+      </a>
+      <a href="./tout_terrain.html">
+        <span>Tout Terrain</span>
+      </a>
+      <a href="./velo.html" class="active">
+        <span>Vélo</span>
+      </a>
+      <a href="./vip.html">
+        <span>VIP</span>
+      </a>
+    </div>
+  </section>
     <section class="title">
       <h1>Vélo</h1>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://lh4.googleusercontent.com/ItiAp2N_dxwH8OCyVjR0sFojL7SF7su72WnE6MoYJxFYiYn0MXlZwklFqf0gUPdzxkA2ClNODTCaVWKKdzpLtS8FSNmqI1LkNmjp5ygkBQlYIcERmgOGiMtSWj9XRzlFGqia7fNFNuJGYVrgXnIzLPo);
-          "
-        >
+          class="front" id="scorcher">
           <h2 class="text-shadow">SCORCHER</h2>
         </div>
         <div class="back">
@@ -38,11 +87,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://staticg.sportskeeda.com/editor/2023/03/40ed6-16801592976563-1920.jpg);
-          "
-        >
+          class="front" id="bmx">
           <h2 class="text-shadow">BMX</h2>
         </div>
         <div class="back">
@@ -56,11 +101,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.gta5-mods.com/q95/images/bmx-street-with-pegs-addon-replace/b78613-bmxst6.jpg);
-          "
-        >
+          class="front" id="bimx">
           <h2 class="text-shadow">BIMX</h2>
         </div>
         <div class="back">
@@ -75,11 +116,7 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://lh6.googleusercontent.com/_BFeMKMOJYa6_GgB44HPTF5ZO6c1nakZC7gaEbEICy3KKSr2E9V6u1sgmUdbx8SrfX4ZE61KV-_cxa6EIVC-szVaegLd5NDSjMYbn4URnEDx5MNVt3LTZPR82gpuv4IVqaRdxpUEc4noEP8atzETu6k);
-          "
-        >
+          class="front" id="cruiser">
           <h2 class="text-shadow">CRUISER</h2>
         </div>
         <div class="back">
@@ -93,11 +130,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.gta5-mods.com/q85-w800/images/real-road-bike-pack/04bbf3-2015-11-15_00221.jpg);
-          "
-        >
+          class="front" id="tribike">
           <h2 class="text-shadow">TRI-BIKE</h2>
         </div>
         <div class="back">
@@ -111,11 +144,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.gta5-mods.com/q95/images/real-road-bike-pack/04bbf3-2015-11-16_00021.jpg);
-          "
-        >
+          class="front" id="tribikeV2">
           <h2 class="text-shadow">TRI-BIKE V2</h2>
         </div>
         <div class="back">
@@ -130,11 +159,7 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://i.ytimg.com/vi/6esx8w_WD7Q/maxresdefault.jpg);
-          "
-        >
+          class="front" id="fixter">
           <h2 class="text-shadow">FIXTER</h2>
         </div>
         <div class="back">

@@ -4,27 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VIP</title>
-    <link rel="stylesheet" href="/CSS/index.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="/CSS/vip.css">
   </head>
   <body>
     <header>
+      <div id="logo">
+        <img
+          src="https://storylife.fr/assets/logo-story.png"
+          alt="logo"
+          width="50vh"
+        />
+      </div>
       <img
+        id="one"
         src="./IMG/PremiumDeluxeMotorsport-GTAOe-Logo.webp"
         alt="PDM"
         width="500px"
         height="200px"
       />
     </header>
-    <hr />
+  <section id="left">
+    <input type="checkbox" id="check" />
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <a href="/pdm.html">
+        <span>Accueil</span>
+      </a>
+      <a href="./arrivage.html">
+        <span>Arrivage</span>
+      </a>
+      <a href="./Chopper.html">
+        <span>Chopper</span>
+      </a>
+      <a href="./Classiques.html">
+        <span>Classiques</span>
+      </a>
+      <a href="./cross.html">
+        <span>Motocross</span>
+      </a>
+      <a href="./occas.html">
+        <span>Occasion</span>
+      </a>
+      <a href="./quad.html">
+        <span>Quad</span>
+      </a>
+      <a href="./scooter.html">
+        <span>Scooter</span>
+      </a>
+      <a href="./super_sportive.html">
+        <span>Super Sportive</span>
+      </a>
+      <a href="./tout_terrain.html">
+        <span>Tout Terrain</span>
+      </a>
+      <a href="./velo.html">
+        <span>Vélo</span>
+      </a>
+      <a href="./vip.html" class="active">
+        <span>VIP</span>
+      </a>
+    </div>
+  </section>
     <section class="title">
       <h1>VIP</h1>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.gta5-mods.com/q95/images/kawasaki-zx10r-2017-replace-template/f4a7d5-zx6.jpg);
-          "
-        >
+          class="front" id="zx10r">
           <h2 class="text-shadow">ZX-10R</h2>
         </div>
         <div class="back">
@@ -38,11 +87,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.gta5-mods.com/q95/images/yzfsm-white-and-blue-livery-2018/2b43e2-PGTA51179911442.jpg);
-          "
-        >
+          class="front" id="yzfsm">
           <h2 class="text-shadow">YZ-FSM</h2>
         </div>
         <div class="back">
@@ -56,11 +101,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.gta5-mods.com/q95/images/yamaha-yz450f-supermoto/461b1b-GTA5%202016-07-06%2017-44-43.jpg);
-          "
-        >
+          class="front" id="yz450f">
           <h2 class="text-shadow">YZ-450F</h2>
         </div>
         <div class="back">
@@ -75,11 +116,7 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.gta5-mods.com/q95/images/2011-ktm-450-sx-f/a88b1e-GTA5%202016-01-10%2019-12-10.jpg);
-          "
-        >
+          class="front" id="sxf450">
           <h2 class="text-shadow">SXF-450</h2>
         </div>
         <div class="back">
@@ -93,11 +130,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/im-looking-to-buy-a-western-daemon-v0-32hxcxslq7dd1.jpeg?auto=webp&s=952c9542d2145698a8c1c9a573b2d798c80d3c10);
-          "
-        >
+          class="front" id="crf450r">
           <h2 class="text-shadow">CRF-450R</h2>
         </div>
         <div class="back">
@@ -111,11 +144,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://pbs.twimg.com/media/Fq9y0vDXgAAXb1B?format=jpg&name=360x360);
-          "
-        >
+          class="front" id="crfsm">
           <h2 class="text-shadow">CR-FSM</h2>
         </div>
         <div class="back">
@@ -130,11 +159,7 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/still-desperately-looking-for-the-hexer-its-the-only-bike-v0-ezjqzwsr8s6c1.jpeg?width=1080&crop=smart&auto=webp&s=ba8ecfd2fdf7dd2f889196acb08d2e8f6f91c407);
-          "
-        >
+          class="front" id="fc450">
           <h2 class="text-shadow">FC-450</h2>
         </div>
         <div class="back">
@@ -148,11 +173,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.gta5-mods.com/q95/images/harley-davidson-fat-boy-terminator-2-hq-add-on/f77e6e-EVE-20180330015957.007.jpg);
-          "
-        >
+          class="front" id="ktmsupermot">
           <h2 class="text-shadow">KTM SUPERMOT</h2>
         </div>
         <div class="back">
@@ -166,11 +187,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(http://donks.ru/sites/default/files/vehicles/LCC%20Innovation.jpg);
-          "
-        >
+          class="front" id="kx450f">
           <h2 class="text-shadow">KX-450F</h2>
         </div>
         <div class="back">
@@ -185,11 +202,7 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://i.ytimg.com/vi/1Vhppv9DyiU/maxresdefault.jpg);
-          "
-        >
+          class="front" id="ltr450">
           <h2 class="text-shadow">LTR-450</h2>
         </div>
         <div class="back">
@@ -203,11 +216,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://img.atwiki.jp/gtav/attach/1668/7709/Rat_Bike_main.jpg);
-          "
-        >
+          class="front" id="ltrstar">
           <h2 class="text-shadow">LTR-STAR</h2>
         </div>
         <div class="back">
@@ -221,11 +230,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://gtamag.com/images/photo/gta-mag-western-rampant-rocket2-gtao-795363.jpg);
-          "
-        >
+          class="front" id="kampfer">
           <h2 class="text-shadow">KAMPFER</h2>
         </div>
         <div class="back">
@@ -240,15 +245,11 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/ltb-sanctus-xbx-v0-e2b1mpqcds3d1.jpeg?width=1080&crop=smart&auto=webp&s=3af44529c869839f5f02f053b72c8a117ae1d525);
-          "
-        >
-          <h2 class="text-shadow">SOVEREIGN</h2>
+          class="front" id="sovereignvip">
+          <h2 class="text-shadow">SOVEREIGN VIP</h2>
         </div>
         <div class="back">
-          <h2>Sovereign</h2>
+          <h2>Sovereign vip</h2>
           <p>
             Prix : 112 310 <br />
             Places : 1 <br />
@@ -258,11 +259,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/a2wnceclk8k91.jpg?width=1080&crop=smart&auto=webp&s=7e693d6d201c344c7ad088d682935b87a6ecc3f2);
-          "
-        >
+          class="front" id="wintergreen">
           <h2 class="text-shadow">WINTERGREEN</h2>
         </div>
         <div class="back">
@@ -276,11 +273,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/w307o7kgvfna1.jpg?width=1080&crop=smart&auto=webp&s=94802036e85d5fe0107343b5d2f0730eb07d9425);
-          "
-        >
+          class="front" id="saltflat">
           <h2 class="text-shadow">SALTFLAT</h2>
         </div>
         <div class="back">
@@ -295,11 +288,7 @@
       <br />
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://pbs.twimg.com/media/EQzSGvFUUAASZDN?format=jpg&name=large);
-          "
-        >
+          class="front" id="phantomciv">
           <h2 class="text-shadow">PHANTOM CIV</h2>
         </div>
         <div class="back">
@@ -313,11 +302,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/havent-seen-many-bikes-here-yet-v0-7hqu1llbn4m81.jpg?width=1080&crop=smart&auto=webp&s=4d09f3ea5572f7a565cdc2d6757a5e4b258decf6);
-          "
-        >
+          class="front" id="mesagator">
           <h2 class="text-shadow">MESA GATOR</h2>
         </div>
         <div class="back">
@@ -331,11 +316,7 @@
       </div>
       <div class="flip flip-vertical">
         <div
-          class="front"
-          style="
-            background-image: url(https://preview.redd.it/havent-seen-many-bikes-here-yet-v0-7hqu1llbn4m81.jpg?width=1080&crop=smart&auto=webp&s=4d09f3ea5572f7a565cdc2d6757a5e4b258decf6);
-          "
-        >
+          class="front" id="roadrunner">
           <h2 class="text-shadow">ROADRUNNER</h2>
         </div>
         <div class="back">
@@ -343,6 +324,350 @@
           <p>
             Prix : 150 000 <br />
             Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="cavalcadelimo">
+          <h2 class="text-shadow">CAVALCADE  LIMO</h2>
+        </div>
+        <div class="back">
+          <h2>Cavalcade Limo</h2>
+          <p>
+            Prix : 200 000 <br />
+            Places : 4-6 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="buscamping">
+          <h2 class="text-shadow">BUS CAMPING</h2>
+        </div>
+        <div class="back">
+          <h2>Bus Camping</h2>
+          <p>
+            Prix : 450 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="caracaracamping">
+          <h2 class="text-shadow">CARACARA CAMPING</h2>
+        </div>
+        <div class="back">
+          <h2>Caracara Camping</h2>
+          <p>
+            Prix : 300 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="angelretro">
+          <h2 class="text-shadow">ANGEL RETRO</h2>
+        </div>
+        <div class="back">
+          <h2>Angel Retro</h2>
+          <p>
+            Prix : 38 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="diabolusretro">
+          <h2 class="text-shadow">DIABOLUS RETRO</h2>
+        </div>
+        <div class="back">
+          <h2>Diabolus Retro</h2>
+          <p>
+            Prix : 390 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="freewayretro">
+          <h2 class="text-shadow">FREEWAY RETRO</h2>
+        </div>
+        <div class="back">
+          <h2>FreeWay retro</h2>
+          <p>
+            Prix : 40 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="hellfuryretro">
+          <h2 class="text-shadow">HELLFURY RETRO</h2>
+        </div>
+        <div class="back">
+          <h2>HellFury Retro</h2>
+          <p>
+            Prix : 420 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="lycanretro">
+          <h2 class="text-shadow">LYCAN RETRO</h2>
+        </div>
+        <div class="back">
+          <h2>Lycan Retro</h2>
+          <p>
+            Prix : 430 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="sandstorm">
+          <h2 class="text-shadow">SANDSTORM</h2>
+        </div>
+        <div class="back">
+          <h2>SandStorm</h2>
+          <p>
+            Prix : 250 000 <br />
+            Places : 2 <br />
+            Coffres : 100 KG
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="sandstormxl">
+          <h2 class="text-shadow">SANDSTORM XL</h2>
+        </div>
+        <div class="back">
+          <h2>SandStorm XL</h2>
+          <p>
+            Prix : 280 000 <br />
+            Places : 2 <br />
+            Coffres : 100 KG
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="chimerac">
+          <h2 class="text-shadow">CHIMERA C</h2>
+        </div>
+        <div class="back">
+          <h2>Chimera C</h2>
+          <p>
+            Prix : 85 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="dabob">
+          <h2 class="text-shadow">DABOB</h2>
+        </div>
+        <div class="back">
+          <h2>Dabob</h2>
+          <p>
+            Prix : 88 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="hexerz2">
+          <h2 class="text-shadow">HEXERZ 2</h2>
+        </div>
+        <div class="back">
+          <h2>Hexerz 2</h2>
+          <p>
+            Prix : 95 500 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="lpbagger">
+          <h2 class="text-shadow">LP BAGGER</h2>
+        </div>
+        <div class="back">
+          <h2>LP Bagger</h2>
+          <p>
+            Prix : 142 500 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="terabit">
+          <h2 class="text-shadow">TERABIT</h2>
+        </div>
+        <div class="back">
+          <h2>Terabit</h2>
+          <p>
+            Prix : 70 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="reever">
+          <h2 class="text-shadow">REEVER</h2>
+        </div>
+        <div class="back">
+          <h2>Reever</h2>
+          <p>
+            Prix : 125 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="shinobi">
+          <h2 class="text-shadow">SHINOBI</h2>
+        </div>
+        <div class="back">
+          <h2>Shinobi</h2>
+          <p>
+            Prix : 140 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="faggio6">
+          <h2 class="text-shadow">FAGGIO 6</h2>
+        </div>
+        <div class="back">
+          <h2>Faggio 6</h2>
+          <p>
+            Prix : 65 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="patriot3">
+          <h2 class="text-shadow">PATRIOT3</h2>
+        </div>
+        <div class="back">
+          <h2>Patriot 3</h2>
+          <p>
+            Prix : 252 000 <br />
+            Places : 4 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="nightbladeretro">
+          <h2 class="text-shadow">NIGHTBLADE RETRO</h2>
+        </div>
+        <div class="back">
+          <h2>Nightblade Retro</h2>
+          <p>
+            Prix : 120 500 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="wolfsbane">
+          <h2 class="text-shadow">WOLFSBANE RETRO</h2>
+        </div>
+        <div class="back">
+          <h2>Wolfsbane Retro</h2>
+          <p>
+            Prix : 130 500 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="blazerxf">
+          <h2 class="text-shadow">BLAZER XF</h2>
+        </div>
+        <div class="back">
+          <h2>Blazer XF</h2>
+          <p>
+            Prix : 80 000 <br />
+            Places : 2 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="kamswb">
+          <h2 class="text-shadow">KAMSWB</h2>
+        </div>
+        <div class="back">
+          <h2>Kamswb</h2>
+          <p>
+            Prix : 130 000 <br />
+            Places : 4 <br />
+            Coffres : X
+          </p>
+        </div>
+      </div>
+      <div class="flip flip-vertical">
+        <div
+          class="front" id="dloader5">
+          <h2 class="text-shadow">DLOADER 5</h2>
+        </div>
+        <div class="back">
+          <h2>Dloader 5</h2>
+          <p>
+            Prix : 82 000 <br />
+            Places : 4 <br />
             Coffres : X
           </p>
         </div>
